@@ -1,0 +1,5 @@
+D:/MY_first_project/DataPipeline/build/CMakeFiles/datapipeline.dir
+D:/MY_first_project/DataPipeline/build/CMakeFiles/tests.dir
+D:/MY_first_project/DataPipeline/build/CMakeFiles/RUN_TESTS.dir
+D:/MY_first_project/DataPipeline/build/CMakeFiles/ALL_BUILD.dir
+D:/MY_first_project/DataPipeline/build/CMakeFiles/ZERO_CHECK.dir

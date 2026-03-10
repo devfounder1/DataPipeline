@@ -1,0 +1,6 @@
+D:\MY_first_project\DataPipeline\src\main.cpp;D:\MY_first_project\DataPipeline\build\datapipeline.dir\Release\main.obj
+D:\MY_first_project\DataPipeline\src\core\thread_pool.cpp;D:\MY_first_project\DataPipeline\build\datapipeline.dir\Release\thread_pool.obj
+D:\MY_first_project\DataPipeline\src\core\message_queue.cpp;D:\MY_first_project\DataPipeline\build\datapipeline.dir\Release\message_queue.obj
+D:\MY_first_project\DataPipeline\src\core\pipeline.cpp;D:\MY_first_project\DataPipeline\build\datapipeline.dir\Release\pipeline.obj
+D:\MY_first_project\DataPipeline\src\processors\anomaly_detector.cpp;D:\MY_first_project\DataPipeline\build\datapipeline.dir\Release\anomaly_detector.obj
+D:\MY_first_project\DataPipeline\src\storage\database.cpp;D:\MY_first_project\DataPipeline\build\datapipeline.dir\Release\database.obj

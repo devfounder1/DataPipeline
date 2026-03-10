@@ -1,0 +1,10 @@
+^D:\MY_FIRST_PROJECT\DATAPIPELINE\BUILD\CMAKEFILES\C4601D95EFB81A0E5DB9D9E8F43478E2\GENERATE.STAMP.RULE
+setlocal
+D:\MinGW\mingw64\bin\cmake.exe -SD:/MY_first_project/DataPipeline -BD:/MY_first_project/DataPipeline/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/MY_first_project/DataPipeline/build/DataPipeline.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

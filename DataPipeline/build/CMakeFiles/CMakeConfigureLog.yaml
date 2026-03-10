@@ -1,0 +1,1695 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/MinGW/mingw64/share/cmake-4.2/Modules/CMakeDetermineSystem.cmake:212 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 10.0.19045 - AMD64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/MinGW/mingw64/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "D:/MinGW/mingw64/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "D:/MinGW/mingw64/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "D:/MinGW/mingw64/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/MinGW/mingw64/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "D:/MinGW/mingw64/share/cmake-4.2/Modules/"
+    found: "D:/MinGW/mingw64/share/cmake-4.2/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "c:\\Users\\noo_n\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\noo_n\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "c:\\Users\\noo_n\\.vscode\\extensions\\vadimcn.vscode-lldb-1.12.1\\bin"
+        - "D:\\POPA\\Microsoft VS Code"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\MATLAB\\R2023a\\runtime\\win64"
+        - "C:\\Program Files\\MATLAB\\R2023a\\bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\WireGuard\\"
+        - "D:\\\u044e\u043b\u044f\\active HDL\\bin"
+        - "D:\\\u044e\u043b\u044f\\bin"
+        - "D:\\MinGW\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\GNU Arm Embedded Toolchain\\10 2021.10\\bin\\bin"
+        - "C:\\Users\\noo_n\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\"
+        - "C:\\Users\\noo_n\\AppData\\Local\\Programs\\Python\\Python311\\"
+        - "C:\\Users\\noo_n\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\\u0436\u043e\u043f\u0430\\PyCharm Community Edition 2023.2.1\\bin"
+        - "C:\\Users\\noo_n\\.dotnet\\tools"
+        - "C:\\Users\\noo_n\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin"
+        - "D:\\POPA\\Microsoft VS Code\\bin"
+        - "C:\\Users\\noo_n\\AppData\\Local\\Programs\\Ollama"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/MinGW/mingw64/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/MinGW/mingw64/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/MinGW/mingw64/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Версия MSBuild 17.9.5+33de0b227 для .NET Framework
+      Сборка начата 10.03.2026 20:07:14.
+      
+      Проект "D:\\MY_first_project\\DataPipeline\\build\\CMakeFiles\\4.2.1\\CompilerIdCXX\\CompilerIdCXX.vcxproj" в узле 1 (целевые объекты по умолчанию).
+      PrepareForBuild:
+        Создание каталога "Debug\\".
+        Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+        Создание каталога "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        Создание "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+        Обращение к "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> D:\\MY_first_project\\DataPipeline\\build\\CMakeFiles\\4.2.1\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Файл "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" удаляется.
+        Обращение к "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      Сборка проекта "D:\\MY_first_project\\DataPipeline\\build\\CMakeFiles\\4.2.1\\CompilerIdCXX\\CompilerIdCXX.vcxproj" завершена (целевые объекты по умолчанию).
+      
+      Сборка успешно завершена.
+          Предупреждений: 0
+          Ошибок: 0
+      
+      Прошло времени 00:00:00.42
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        D:/MY_first_project/DataPipeline/build/CMakeFiles/4.2.1/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/MinGW/mingw64/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "D:/MinGW/mingw64/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
+      - "D:/MinGW/mingw64/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:103 (__resolve_linker_path)"
+      - "D:/MinGW/mingw64/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "link"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.39.33519/bin/Hostx64/x64/"
+      - "C:/Users/noo_n/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "C:/Users/noo_n/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "C:/Users/noo_n/.vscode/extensions/vadimcn.vscode-lldb-1.12.1/bin/"
+      - "D:/POPA/Microsoft VS Code/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/MATLAB/R2023a/runtime/win64/"
+      - "C:/Program Files/MATLAB/R2023a/bin/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/WireGuard/"
+      - "D:/\u044e\u043b\u044f/active HDL/bin/"
+      - "D:/\u044e\u043b\u044f/bin/"
+      - "D:/MinGW/mingw64/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/GNU Arm Embedded Toolchain/10 2021.10/bin/bin/"
+      - "C:/Users/noo_n/AppData/Local/Programs/Python/Python311/Scripts/"
+      - "C:/Users/noo_n/AppData/Local/Programs/Python/Python311/"
+      - "C:/Users/noo_n/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/\u0436\u043e\u043f\u0430/PyCharm Community Edition 2023.2.1/bin/"
+      - "C:/Users/noo_n/.dotnet/tools/"
+      - "C:/Users/noo_n/AppData/Local/Programs/cursor/resources/app/bin/"
+      - "D:/POPA/Microsoft VS Code/bin/"
+      - "C:/Users/noo_n/AppData/Local/Programs/Ollama/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.39.33519/bin/Hostx64/x64/link.com"
+    found: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.39.33519/bin/Hostx64/x64/link.exe"
+    search_context:
+      ENV{PATH}:
+        - "c:\\Users\\noo_n\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\noo_n\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "c:\\Users\\noo_n\\.vscode\\extensions\\vadimcn.vscode-lldb-1.12.1\\bin"
+        - "D:\\POPA\\Microsoft VS Code"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\MATLAB\\R2023a\\runtime\\win64"
+        - "C:\\Program Files\\MATLAB\\R2023a\\bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\WireGuard\\"
+        - "D:\\\u044e\u043b\u044f\\active HDL\\bin"
+        - "D:\\\u044e\u043b\u044f\\bin"
+        - "D:\\MinGW\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\GNU Arm Embedded Toolchain\\10 2021.10\\bin\\bin"
+        - "C:\\Users\\noo_n\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\"
+        - "C:\\Users\\noo_n\\AppData\\Local\\Programs\\Python\\Python311\\"
+        - "C:\\Users\\noo_n\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\\u0436\u043e\u043f\u0430\\PyCharm Community Edition 2023.2.1\\bin"
+        - "C:\\Users\\noo_n\\.dotnet\\tools"
+        - "C:\\Users\\noo_n\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin"
+        - "D:\\POPA\\Microsoft VS Code\\bin"
+        - "C:\\Users\\noo_n\\AppData\\Local\\Programs\\Ollama"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/MinGW/mingw64/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "D:/MinGW/mingw64/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
+      - "D:/MinGW/mingw64/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:104 (__resolve_linker_path)"
+      - "D:/MinGW/mingw64/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lld-link"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.39.33519/bin/Hostx64/x64/"
+      - "C:/Users/noo_n/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "C:/Users/noo_n/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "C:/Users/noo_n/.vscode/extensions/vadimcn.vscode-lldb-1.12.1/bin/"
+      - "D:/POPA/Microsoft VS Code/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/MATLAB/R2023a/runtime/win64/"
+      - "C:/Program Files/MATLAB/R2023a/bin/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/WireGuard/"
+      - "D:/\u044e\u043b\u044f/active HDL/bin/"
+      - "D:/\u044e\u043b\u044f/bin/"
+      - "D:/MinGW/mingw64/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/GNU Arm Embedded Toolchain/10 2021.10/bin/bin/"
+      - "C:/Users/noo_n/AppData/Local/Programs/Python/Python311/Scripts/"
+      - "C:/Users/noo_n/AppData/Local/Programs/Python/Python311/"
+      - "C:/Users/noo_n/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/\u0436\u043e\u043f\u0430/PyCharm Community Edition 2023.2.1/bin/"
+      - "C:/Users/noo_n/.dotnet/tools/"
+      - "C:/Users/noo_n/AppData/Local/Programs/cursor/resources/app/bin/"
+      - "D:/POPA/Microsoft VS Code/bin/"
+      - "C:/Users/noo_n/AppData/Local/Programs/Ollama/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.39.33519/bin/Hostx64/x64/lld-link.com"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.39.33519/bin/Hostx64/x64/lld-link.exe"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.39.33519/bin/Hostx64/x64/lld-link"
+      - "C:/Users/noo_n/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/lld-link.com"
+      - "C:/Users/noo_n/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/lld-link.exe"
+      - "C:/Users/noo_n/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/lld-link"
+      - "C:/Users/noo_n/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/lld-link.com"
+      - "C:/Users/noo_n/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/lld-link.exe"
+      - "C:/Users/noo_n/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/lld-link"
+      - "C:/Users/noo_n/.vscode/extensions/vadimcn.vscode-lldb-1.12.1/bin/lld-link.com"
+      - "C:/Users/noo_n/.vscode/extensions/vadimcn.vscode-lldb-1.12.1/bin/lld-link.exe"
+      - "C:/Users/noo_n/.vscode/extensions/vadimcn.vscode-lldb-1.12.1/bin/lld-link"
+      - "D:/POPA/Microsoft VS Code/lld-link.com"
+      - "D:/POPA/Microsoft VS Code/lld-link.exe"
+      - "D:/POPA/Microsoft VS Code/lld-link"
+      - "C:/Windows/System32/lld-link.com"
+      - "C:/Windows/System32/lld-link.exe"
+      - "C:/Windows/System32/lld-link"
+      - "C:/Windows/lld-link.com"
+      - "C:/Windows/lld-link.exe"
+      - "C:/Windows/lld-link"
+      - "C:/Windows/System32/wbem/lld-link.com"
+      - "C:/Windows/System32/wbem/lld-link.exe"
+      - "C:/Windows/System32/wbem/lld-link"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link"
+      - "C:/Windows/System32/OpenSSH/lld-link.com"
+      - "C:/Windows/System32/OpenSSH/lld-link.exe"
+      - "C:/Windows/System32/OpenSSH/lld-link"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/lld-link.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/lld-link.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/lld-link"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link"
+      - "C:/Program Files/MATLAB/R2023a/runtime/win64/lld-link.com"
+      - "C:/Program Files/MATLAB/R2023a/runtime/win64/lld-link.exe"
+      - "C:/Program Files/MATLAB/R2023a/runtime/win64/lld-link"
+      - "C:/Program Files/MATLAB/R2023a/bin/lld-link.com"
+      - "C:/Program Files/MATLAB/R2023a/bin/lld-link.exe"
+      - "C:/Program Files/MATLAB/R2023a/bin/lld-link"
+      - "C:/Program Files/dotnet/lld-link.com"
+      - "C:/Program Files/dotnet/lld-link.exe"
+      - "C:/Program Files/dotnet/lld-link"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link"
+      - "C:/Program Files/WireGuard/lld-link.com"
+      - "C:/Program Files/WireGuard/lld-link.exe"
+      - "C:/Program Files/WireGuard/lld-link"
+      - "D:/\u044e\u043b\u044f/active HDL/bin/lld-link.com"
+      - "D:/\u044e\u043b\u044f/active HDL/bin/lld-link.exe"
+      - "D:/\u044e\u043b\u044f/active HDL/bin/lld-link"
+      - "D:/\u044e\u043b\u044f/bin/lld-link.com"
+      - "D:/\u044e\u043b\u044f/bin/lld-link.exe"
+      - "D:/\u044e\u043b\u044f/bin/lld-link"
+      - "D:/MinGW/mingw64/bin/lld-link.com"
+      - "D:/MinGW/mingw64/bin/lld-link.exe"
+      - "D:/MinGW/mingw64/bin/lld-link"
+      - "C:/Program Files/Git/cmd/lld-link.com"
+      - "C:/Program Files/Git/cmd/lld-link.exe"
+      - "C:/Program Files/Git/cmd/lld-link"
+      - "C:/Program Files/GNU Arm Embedded Toolchain/10 2021.10/bin/bin/lld-link.com"
+      - "C:/Program Files/GNU Arm Embedded Toolchain/10 2021.10/bin/bin/lld-link.exe"
+      - "C:/Program Files/GNU Arm Embedded Toolchain/10 2021.10/bin/bin/lld-link"
+      - "C:/Users/noo_n/AppData/Local/Programs/Python/Python311/Scripts/lld-link.com"
+      - "C:/Users/noo_n/AppData/Local/Programs/Python/Python311/Scripts/lld-link.exe"
+      - "C:/Users/noo_n/AppData/Local/Programs/Python/Python311/Scripts/lld-link"
+      - "C:/Users/noo_n/AppData/Local/Programs/Python/Python311/lld-link.com"
+      - "C:/Users/noo_n/AppData/Local/Programs/Python/Python311/lld-link.exe"
+      - "C:/Users/noo_n/AppData/Local/Programs/Python/Python311/lld-link"
+      - "C:/Users/noo_n/AppData/Local/Microsoft/WindowsApps/lld-link.com"
+      - "C:/Users/noo_n/AppData/Local/Microsoft/WindowsApps/lld-link.exe"
+      - "C:/Users/noo_n/AppData/Local/Microsoft/WindowsApps/lld-link"
+      - "D:/\u0436\u043e\u043f\u0430/PyCharm Community Edition 2023.2.1/bin/lld-link.com"
+      - "D:/\u0436\u043e\u043f\u0430/PyCharm Community Edition 2023.2.1/bin/lld-link.exe"
+      - "D:/\u0436\u043e\u043f\u0430/PyCharm Community Edition 2023.2.1/bin/lld-link"
+      - "C:/Users/noo_n/.dotnet/tools/lld-link.com"
+      - "C:/Users/noo_n/.dotnet/tools/lld-link.exe"
+      - "C:/Users/noo_n/.dotnet/tools/lld-link"
+      - "C:/Users/noo_n/AppData/Local/Programs/cursor/resources/app/bin/lld-link.com"
+      - "C:/Users/noo_n/AppData/Local/Programs/cursor/resources/app/bin/lld-link.exe"
+      - "C:/Users/noo_n/AppData/Local/Programs/cursor/resources/app/bin/lld-link"
+      - "D:/POPA/Microsoft VS Code/bin/lld-link.com"
+      - "D:/POPA/Microsoft VS Code/bin/lld-link.exe"
+      - "D:/POPA/Microsoft VS Code/bin/lld-link"
+      - "C:/Users/noo_n/AppData/Local/Programs/Ollama/lld-link.com"
+      - "C:/Users/noo_n/AppData/Local/Programs/Ollama/lld-link.exe"
+      - "C:/Users/noo_n/AppData/Local/Programs/Ollama/lld-link"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "c:\\Users\\noo_n\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\noo_n\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "c:\\Users\\noo_n\\.vscode\\extensions\\vadimcn.vscode-lldb-1.12.1\\bin"
+        - "D:\\POPA\\Microsoft VS Code"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\MATLAB\\R2023a\\runtime\\win64"
+        - "C:\\Program Files\\MATLAB\\R2023a\\bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\WireGuard\\"
+        - "D:\\\u044e\u043b\u044f\\active HDL\\bin"
+        - "D:\\\u044e\u043b\u044f\\bin"
+        - "D:\\MinGW\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\GNU Arm Embedded Toolchain\\10 2021.10\\bin\\bin"
+        - "C:\\Users\\noo_n\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\"
+        - "C:\\Users\\noo_n\\AppData\\Local\\Programs\\Python\\Python311\\"
+        - "C:\\Users\\noo_n\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\\u0436\u043e\u043f\u0430\\PyCharm Community Edition 2023.2.1\\bin"
+        - "C:\\Users\\noo_n\\.dotnet\\tools"
+        - "C:\\Users\\noo_n\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin"
+        - "D:\\POPA\\Microsoft VS Code\\bin"
+        - "C:\\Users\\noo_n\\AppData\\Local\\Programs\\Ollama"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/MinGW/mingw64/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "D:/MinGW/mingw64/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "link"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.39.33519/bin/Hostx64/x64/"
+      - "C:/Users/noo_n/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "C:/Users/noo_n/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "C:/Users/noo_n/.vscode/extensions/vadimcn.vscode-lldb-1.12.1/bin/"
+      - "D:/POPA/Microsoft VS Code/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/MATLAB/R2023a/runtime/win64/"
+      - "C:/Program Files/MATLAB/R2023a/bin/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/WireGuard/"
+      - "D:/\u044e\u043b\u044f/active HDL/bin/"
+      - "D:/\u044e\u043b\u044f/bin/"
+      - "D:/MinGW/mingw64/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/GNU Arm Embedded Toolchain/10 2021.10/bin/bin/"
+      - "C:/Users/noo_n/AppData/Local/Programs/Python/Python311/Scripts/"
+      - "C:/Users/noo_n/AppData/Local/Programs/Python/Python311/"
+      - "C:/Users/noo_n/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/\u0436\u043e\u043f\u0430/PyCharm Community Edition 2023.2.1/bin/"
+      - "C:/Users/noo_n/.dotnet/tools/"
+      - "C:/Users/noo_n/AppData/Local/Programs/cursor/resources/app/bin/"
+      - "D:/POPA/Microsoft VS Code/bin/"
+      - "C:/Users/noo_n/AppData/Local/Programs/Ollama/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.39.33519/bin/Hostx64/x64/link.com"
+    found: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.39.33519/bin/Hostx64/x64/link.exe"
+    search_context:
+      ENV{PATH}:
+        - "c:\\Users\\noo_n\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\noo_n\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "c:\\Users\\noo_n\\.vscode\\extensions\\vadimcn.vscode-lldb-1.12.1\\bin"
+        - "D:\\POPA\\Microsoft VS Code"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\MATLAB\\R2023a\\runtime\\win64"
+        - "C:\\Program Files\\MATLAB\\R2023a\\bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\WireGuard\\"
+        - "D:\\\u044e\u043b\u044f\\active HDL\\bin"
+        - "D:\\\u044e\u043b\u044f\\bin"
+        - "D:\\MinGW\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\GNU Arm Embedded Toolchain\\10 2021.10\\bin\\bin"
+        - "C:\\Users\\noo_n\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\"
+        - "C:\\Users\\noo_n\\AppData\\Local\\Programs\\Python\\Python311\\"
+        - "C:\\Users\\noo_n\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\\u0436\u043e\u043f\u0430\\PyCharm Community Edition 2023.2.1\\bin"
+        - "C:\\Users\\noo_n\\.dotnet\\tools"
+        - "C:\\Users\\noo_n\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin"
+        - "D:\\POPA\\Microsoft VS Code\\bin"
+        - "C:\\Users\\noo_n\\AppData\\Local\\Programs\\Ollama"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/MinGW/mingw64/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "D:/MinGW/mingw64/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_MT"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "mt"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.39.33519/bin/Hostx64/x64/"
+      - "C:/Users/noo_n/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "C:/Users/noo_n/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "C:/Users/noo_n/.vscode/extensions/vadimcn.vscode-lldb-1.12.1/bin/"
+      - "D:/POPA/Microsoft VS Code/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/MATLAB/R2023a/runtime/win64/"
+      - "C:/Program Files/MATLAB/R2023a/bin/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/WireGuard/"
+      - "D:/\u044e\u043b\u044f/active HDL/bin/"
+      - "D:/\u044e\u043b\u044f/bin/"
+      - "D:/MinGW/mingw64/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/GNU Arm Embedded Toolchain/10 2021.10/bin/bin/"
+      - "C:/Users/noo_n/AppData/Local/Programs/Python/Python311/Scripts/"
+      - "C:/Users/noo_n/AppData/Local/Programs/Python/Python311/"
+      - "C:/Users/noo_n/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/\u0436\u043e\u043f\u0430/PyCharm Community Edition 2023.2.1/bin/"
+      - "C:/Users/noo_n/.dotnet/tools/"
+      - "C:/Users/noo_n/AppData/Local/Programs/cursor/resources/app/bin/"
+      - "D:/POPA/Microsoft VS Code/bin/"
+      - "C:/Users/noo_n/AppData/Local/Programs/Ollama/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.39.33519/bin/Hostx64/x64/mt.com"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.39.33519/bin/Hostx64/x64/mt.exe"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.39.33519/bin/Hostx64/x64/mt"
+      - "C:/Users/noo_n/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/mt.com"
+      - "C:/Users/noo_n/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/mt.exe"
+      - "C:/Users/noo_n/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/mt"
+      - "C:/Users/noo_n/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/mt.com"
+      - "C:/Users/noo_n/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/mt.exe"
+      - "C:/Users/noo_n/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/mt"
+      - "C:/Users/noo_n/.vscode/extensions/vadimcn.vscode-lldb-1.12.1/bin/mt.com"
+      - "C:/Users/noo_n/.vscode/extensions/vadimcn.vscode-lldb-1.12.1/bin/mt.exe"
+      - "C:/Users/noo_n/.vscode/extensions/vadimcn.vscode-lldb-1.12.1/bin/mt"
+      - "D:/POPA/Microsoft VS Code/mt.com"
+      - "D:/POPA/Microsoft VS Code/mt.exe"
+      - "D:/POPA/Microsoft VS Code/mt"
+      - "C:/Windows/System32/mt.com"
+      - "C:/Windows/System32/mt.exe"
+      - "C:/Windows/System32/mt"
+      - "C:/Windows/mt.com"
+      - "C:/Windows/mt.exe"
+      - "C:/Windows/mt"
+      - "C:/Windows/System32/wbem/mt.com"
+      - "C:/Windows/System32/wbem/mt.exe"
+      - "C:/Windows/System32/wbem/mt"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt"
+      - "C:/Windows/System32/OpenSSH/mt.com"
+      - "C:/Windows/System32/OpenSSH/mt.exe"
+      - "C:/Windows/System32/OpenSSH/mt"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/mt.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/mt.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/mt"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/mt.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/mt.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/mt"
+      - "C:/Program Files/MATLAB/R2023a/runtime/win64/mt.com"
+      - "C:/Program Files/MATLAB/R2023a/runtime/win64/mt.exe"
+      - "C:/Program Files/MATLAB/R2023a/runtime/win64/mt"
+      - "C:/Program Files/MATLAB/R2023a/bin/mt.com"
+      - "C:/Program Files/MATLAB/R2023a/bin/mt.exe"
+      - "C:/Program Files/MATLAB/R2023a/bin/mt"
+      - "C:/Program Files/dotnet/mt.com"
+      - "C:/Program Files/dotnet/mt.exe"
+      - "C:/Program Files/dotnet/mt"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/mt.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/mt.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/mt"
+      - "C:/Program Files/WireGuard/mt.com"
+      - "C:/Program Files/WireGuard/mt.exe"
+      - "C:/Program Files/WireGuard/mt"
+      - "D:/\u044e\u043b\u044f/active HDL/bin/mt.com"
+      - "D:/\u044e\u043b\u044f/active HDL/bin/mt.exe"
+      - "D:/\u044e\u043b\u044f/active HDL/bin/mt"
+      - "D:/\u044e\u043b\u044f/bin/mt.com"
+      - "D:/\u044e\u043b\u044f/bin/mt.exe"
+      - "D:/\u044e\u043b\u044f/bin/mt"
+      - "D:/MinGW/mingw64/bin/mt.com"
+      - "D:/MinGW/mingw64/bin/mt.exe"
+      - "D:/MinGW/mingw64/bin/mt"
+      - "C:/Program Files/Git/cmd/mt.com"
+      - "C:/Program Files/Git/cmd/mt.exe"
+      - "C:/Program Files/Git/cmd/mt"
+      - "C:/Program Files/GNU Arm Embedded Toolchain/10 2021.10/bin/bin/mt.com"
+      - "C:/Program Files/GNU Arm Embedded Toolchain/10 2021.10/bin/bin/mt.exe"
+      - "C:/Program Files/GNU Arm Embedded Toolchain/10 2021.10/bin/bin/mt"
+      - "C:/Users/noo_n/AppData/Local/Programs/Python/Python311/Scripts/mt.com"
+      - "C:/Users/noo_n/AppData/Local/Programs/Python/Python311/Scripts/mt.exe"
+      - "C:/Users/noo_n/AppData/Local/Programs/Python/Python311/Scripts/mt"
+      - "C:/Users/noo_n/AppData/Local/Programs/Python/Python311/mt.com"
+      - "C:/Users/noo_n/AppData/Local/Programs/Python/Python311/mt.exe"
+      - "C:/Users/noo_n/AppData/Local/Programs/Python/Python311/mt"
+      - "C:/Users/noo_n/AppData/Local/Microsoft/WindowsApps/mt.com"
+      - "C:/Users/noo_n/AppData/Local/Microsoft/WindowsApps/mt.exe"
+      - "C:/Users/noo_n/AppData/Local/Microsoft/WindowsApps/mt"
+      - "D:/\u0436\u043e\u043f\u0430/PyCharm Community Edition 2023.2.1/bin/mt.com"
+      - "D:/\u0436\u043e\u043f\u0430/PyCharm Community Edition 2023.2.1/bin/mt.exe"
+      - "D:/\u0436\u043e\u043f\u0430/PyCharm Community Edition 2023.2.1/bin/mt"
+      - "C:/Users/noo_n/.dotnet/tools/mt.com"
+      - "C:/Users/noo_n/.dotnet/tools/mt.exe"
+      - "C:/Users/noo_n/.dotnet/tools/mt"
+      - "C:/Users/noo_n/AppData/Local/Programs/cursor/resources/app/bin/mt.com"
+      - "C:/Users/noo_n/AppData/Local/Programs/cursor/resources/app/bin/mt.exe"
+      - "C:/Users/noo_n/AppData/Local/Programs/cursor/resources/app/bin/mt"
+      - "D:/POPA/Microsoft VS Code/bin/mt.com"
+      - "D:/POPA/Microsoft VS Code/bin/mt.exe"
+      - "D:/POPA/Microsoft VS Code/bin/mt"
+      - "C:/Users/noo_n/AppData/Local/Programs/Ollama/mt.com"
+      - "C:/Users/noo_n/AppData/Local/Programs/Ollama/mt.exe"
+      - "C:/Users/noo_n/AppData/Local/Programs/Ollama/mt"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "c:\\Users\\noo_n\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\noo_n\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "c:\\Users\\noo_n\\.vscode\\extensions\\vadimcn.vscode-lldb-1.12.1\\bin"
+        - "D:\\POPA\\Microsoft VS Code"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\MATLAB\\R2023a\\runtime\\win64"
+        - "C:\\Program Files\\MATLAB\\R2023a\\bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\WireGuard\\"
+        - "D:\\\u044e\u043b\u044f\\active HDL\\bin"
+        - "D:\\\u044e\u043b\u044f\\bin"
+        - "D:\\MinGW\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\GNU Arm Embedded Toolchain\\10 2021.10\\bin\\bin"
+        - "C:\\Users\\noo_n\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\"
+        - "C:\\Users\\noo_n\\AppData\\Local\\Programs\\Python\\Python311\\"
+        - "C:\\Users\\noo_n\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\\u0436\u043e\u043f\u0430\\PyCharm Community Edition 2023.2.1\\bin"
+        - "C:\\Users\\noo_n\\.dotnet\\tools"
+        - "C:\\Users\\noo_n\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin"
+        - "D:\\POPA\\Microsoft VS Code\\bin"
+        - "C:\\Users\\noo_n\\AppData\\Local\\Programs\\Ollama"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/MinGW/mingw64/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "D:/MinGW/mingw64/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_AR"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lib"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.39.33519/bin/Hostx64/x64/"
+      - "C:/Users/noo_n/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "C:/Users/noo_n/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "C:/Users/noo_n/.vscode/extensions/vadimcn.vscode-lldb-1.12.1/bin/"
+      - "D:/POPA/Microsoft VS Code/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/MATLAB/R2023a/runtime/win64/"
+      - "C:/Program Files/MATLAB/R2023a/bin/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/WireGuard/"
+      - "D:/\u044e\u043b\u044f/active HDL/bin/"
+      - "D:/\u044e\u043b\u044f/bin/"
+      - "D:/MinGW/mingw64/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/GNU Arm Embedded Toolchain/10 2021.10/bin/bin/"
+      - "C:/Users/noo_n/AppData/Local/Programs/Python/Python311/Scripts/"
+      - "C:/Users/noo_n/AppData/Local/Programs/Python/Python311/"
+      - "C:/Users/noo_n/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/\u0436\u043e\u043f\u0430/PyCharm Community Edition 2023.2.1/bin/"
+      - "C:/Users/noo_n/.dotnet/tools/"
+      - "C:/Users/noo_n/AppData/Local/Programs/cursor/resources/app/bin/"
+      - "D:/POPA/Microsoft VS Code/bin/"
+      - "C:/Users/noo_n/AppData/Local/Programs/Ollama/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.39.33519/bin/Hostx64/x64/lib.com"
+    found: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.39.33519/bin/Hostx64/x64/lib.exe"
+    search_context:
+      ENV{PATH}:
+        - "c:\\Users\\noo_n\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\noo_n\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "c:\\Users\\noo_n\\.vscode\\extensions\\vadimcn.vscode-lldb-1.12.1\\bin"
+        - "D:\\POPA\\Microsoft VS Code"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\MATLAB\\R2023a\\runtime\\win64"
+        - "C:\\Program Files\\MATLAB\\R2023a\\bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\WireGuard\\"
+        - "D:\\\u044e\u043b\u044f\\active HDL\\bin"
+        - "D:\\\u044e\u043b\u044f\\bin"
+        - "D:\\MinGW\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\GNU Arm Embedded Toolchain\\10 2021.10\\bin\\bin"
+        - "C:\\Users\\noo_n\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\"
+        - "C:\\Users\\noo_n\\AppData\\Local\\Programs\\Python\\Python311\\"
+        - "C:\\Users\\noo_n\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\\u0436\u043e\u043f\u0430\\PyCharm Community Edition 2023.2.1\\bin"
+        - "C:\\Users\\noo_n\\.dotnet\\tools"
+        - "C:\\Users\\noo_n\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin"
+        - "D:\\POPA\\Microsoft VS Code\\bin"
+        - "C:\\Users\\noo_n\\AppData\\Local\\Programs\\Ollama"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/MinGW/mingw64/share/cmake-4.2/Modules/CMakeDetermineRCCompiler.cmake:40 (find_program)"
+      - "D:/MinGW/mingw64/share/cmake-4.2/Modules/Platform/Windows-MSVC.cmake:580 (enable_language)"
+      - "D:/MinGW/mingw64/share/cmake-4.2/Modules/Platform/Windows-MSVC.cmake:553 (__windows_compiler_msvc_enable_rc)"
+      - "D:/MinGW/mingw64/share/cmake-4.2/Modules/Platform/Windows-MSVC-CXX.cmake:6 (__windows_compiler_msvc)"
+      - "D:/MinGW/mingw64/share/cmake-4.2/Modules/CMakeCXXInformation.cmake:48 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_RC_COMPILER"
+    description: "RC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "rc"
+    candidate_directories:
+      - "C:/Users/noo_n/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "C:/Users/noo_n/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "C:/Users/noo_n/.vscode/extensions/vadimcn.vscode-lldb-1.12.1/bin/"
+      - "D:/POPA/Microsoft VS Code/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/MATLAB/R2023a/runtime/win64/"
+      - "C:/Program Files/MATLAB/R2023a/bin/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/WireGuard/"
+      - "D:/\u044e\u043b\u044f/active HDL/bin/"
+      - "D:/\u044e\u043b\u044f/bin/"
+      - "D:/MinGW/mingw64/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/GNU Arm Embedded Toolchain/10 2021.10/bin/bin/"
+      - "C:/Users/noo_n/AppData/Local/Programs/Python/Python311/Scripts/"
+      - "C:/Users/noo_n/AppData/Local/Programs/Python/Python311/"
+      - "C:/Users/noo_n/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/\u0436\u043e\u043f\u0430/PyCharm Community Edition 2023.2.1/bin/"
+      - "C:/Users/noo_n/.dotnet/tools/"
+      - "C:/Users/noo_n/AppData/Local/Programs/cursor/resources/app/bin/"
+      - "D:/POPA/Microsoft VS Code/bin/"
+      - "C:/Users/noo_n/AppData/Local/Programs/Ollama/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/sbin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/sbin/"
+      - "C:/Program Files (x86)/"
+      - "D:/MinGW/mingw64/bin/"
+      - "D:/MinGW/mingw64/sbin/"
+      - "D:/MinGW/mingw64/"
+      - "C:/Program Files (x86)/DataPipeline/bin/"
+      - "C:/Program Files (x86)/DataPipeline/sbin/"
+      - "C:/Program Files (x86)/DataPipeline/"
+    searched_directories:
+      - "C:/Users/noo_n/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/rc.com"
+      - "C:/Users/noo_n/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/rc.exe"
+      - "C:/Users/noo_n/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/rc"
+      - "C:/Users/noo_n/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/rc.com"
+      - "C:/Users/noo_n/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/rc.exe"
+      - "C:/Users/noo_n/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/rc"
+      - "C:/Users/noo_n/.vscode/extensions/vadimcn.vscode-lldb-1.12.1/bin/rc.com"
+      - "C:/Users/noo_n/.vscode/extensions/vadimcn.vscode-lldb-1.12.1/bin/rc.exe"
+      - "C:/Users/noo_n/.vscode/extensions/vadimcn.vscode-lldb-1.12.1/bin/rc"
+      - "D:/POPA/Microsoft VS Code/rc.com"
+      - "D:/POPA/Microsoft VS Code/rc.exe"
+      - "D:/POPA/Microsoft VS Code/rc"
+      - "C:/Windows/System32/rc.com"
+      - "C:/Windows/System32/rc.exe"
+      - "C:/Windows/System32/rc"
+      - "C:/Windows/rc.com"
+      - "C:/Windows/rc.exe"
+      - "C:/Windows/rc"
+      - "C:/Windows/System32/wbem/rc.com"
+      - "C:/Windows/System32/wbem/rc.exe"
+      - "C:/Windows/System32/wbem/rc"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc"
+      - "C:/Windows/System32/OpenSSH/rc.com"
+      - "C:/Windows/System32/OpenSSH/rc.exe"
+      - "C:/Windows/System32/OpenSSH/rc"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/rc.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/rc.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/rc"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/rc.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/rc.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/rc"
+      - "C:/Program Files/MATLAB/R2023a/runtime/win64/rc.com"
+      - "C:/Program Files/MATLAB/R2023a/runtime/win64/rc.exe"
+      - "C:/Program Files/MATLAB/R2023a/runtime/win64/rc"
+      - "C:/Program Files/MATLAB/R2023a/bin/rc.com"
+      - "C:/Program Files/MATLAB/R2023a/bin/rc.exe"
+      - "C:/Program Files/MATLAB/R2023a/bin/rc"
+      - "C:/Program Files/dotnet/rc.com"
+      - "C:/Program Files/dotnet/rc.exe"
+      - "C:/Program Files/dotnet/rc"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/rc.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/rc.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/rc"
+      - "C:/Program Files/WireGuard/rc.com"
+      - "C:/Program Files/WireGuard/rc.exe"
+      - "C:/Program Files/WireGuard/rc"
+      - "D:/\u044e\u043b\u044f/active HDL/bin/rc.com"
+      - "D:/\u044e\u043b\u044f/active HDL/bin/rc.exe"
+      - "D:/\u044e\u043b\u044f/active HDL/bin/rc"
+      - "D:/\u044e\u043b\u044f/bin/rc.com"
+      - "D:/\u044e\u043b\u044f/bin/rc.exe"
+      - "D:/\u044e\u043b\u044f/bin/rc"
+      - "D:/MinGW/mingw64/bin/rc.com"
+      - "D:/MinGW/mingw64/bin/rc.exe"
+      - "D:/MinGW/mingw64/bin/rc"
+      - "C:/Program Files/Git/cmd/rc.com"
+      - "C:/Program Files/Git/cmd/rc.exe"
+      - "C:/Program Files/Git/cmd/rc"
+      - "C:/Program Files/GNU Arm Embedded Toolchain/10 2021.10/bin/bin/rc.com"
+      - "C:/Program Files/GNU Arm Embedded Toolchain/10 2021.10/bin/bin/rc.exe"
+      - "C:/Program Files/GNU Arm Embedded Toolchain/10 2021.10/bin/bin/rc"
+      - "C:/Users/noo_n/AppData/Local/Programs/Python/Python311/Scripts/rc.com"
+      - "C:/Users/noo_n/AppData/Local/Programs/Python/Python311/Scripts/rc.exe"
+      - "C:/Users/noo_n/AppData/Local/Programs/Python/Python311/Scripts/rc"
+      - "C:/Users/noo_n/AppData/Local/Programs/Python/Python311/rc.com"
+      - "C:/Users/noo_n/AppData/Local/Programs/Python/Python311/rc.exe"
+      - "C:/Users/noo_n/AppData/Local/Programs/Python/Python311/rc"
+      - "C:/Users/noo_n/AppData/Local/Microsoft/WindowsApps/rc.com"
+      - "C:/Users/noo_n/AppData/Local/Microsoft/WindowsApps/rc.exe"
+      - "C:/Users/noo_n/AppData/Local/Microsoft/WindowsApps/rc"
+      - "D:/\u0436\u043e\u043f\u0430/PyCharm Community Edition 2023.2.1/bin/rc.com"
+      - "D:/\u0436\u043e\u043f\u0430/PyCharm Community Edition 2023.2.1/bin/rc.exe"
+      - "D:/\u0436\u043e\u043f\u0430/PyCharm Community Edition 2023.2.1/bin/rc"
+      - "C:/Users/noo_n/.dotnet/tools/rc.com"
+      - "C:/Users/noo_n/.dotnet/tools/rc.exe"
+      - "C:/Users/noo_n/.dotnet/tools/rc"
+      - "C:/Users/noo_n/AppData/Local/Programs/cursor/resources/app/bin/rc.com"
+      - "C:/Users/noo_n/AppData/Local/Programs/cursor/resources/app/bin/rc.exe"
+      - "C:/Users/noo_n/AppData/Local/Programs/cursor/resources/app/bin/rc"
+      - "D:/POPA/Microsoft VS Code/bin/rc.com"
+      - "D:/POPA/Microsoft VS Code/bin/rc.exe"
+      - "D:/POPA/Microsoft VS Code/bin/rc"
+      - "C:/Users/noo_n/AppData/Local/Programs/Ollama/rc.com"
+      - "C:/Users/noo_n/AppData/Local/Programs/Ollama/rc.exe"
+      - "C:/Users/noo_n/AppData/Local/Programs/Ollama/rc"
+      - "C:/Program Files/bin/rc.com"
+      - "C:/Program Files/bin/rc.exe"
+      - "C:/Program Files/bin/rc"
+      - "C:/Program Files/sbin/rc.com"
+      - "C:/Program Files/sbin/rc.exe"
+      - "C:/Program Files/sbin/rc"
+      - "C:/Program Files/rc.com"
+      - "C:/Program Files/rc.exe"
+      - "C:/Program Files/rc"
+      - "C:/Program Files (x86)/bin/rc.com"
+      - "C:/Program Files (x86)/bin/rc.exe"
+      - "C:/Program Files (x86)/bin/rc"
+      - "C:/Program Files (x86)/sbin/rc.com"
+      - "C:/Program Files (x86)/sbin/rc.exe"
+      - "C:/Program Files (x86)/sbin/rc"
+      - "C:/Program Files (x86)/rc.com"
+      - "C:/Program Files (x86)/rc.exe"
+      - "C:/Program Files (x86)/rc"
+      - "D:/MinGW/mingw64/bin/rc.com"
+      - "D:/MinGW/mingw64/bin/rc.exe"
+      - "D:/MinGW/mingw64/bin/rc"
+      - "D:/MinGW/mingw64/sbin/rc.com"
+      - "D:/MinGW/mingw64/sbin/rc.exe"
+      - "D:/MinGW/mingw64/sbin/rc"
+      - "D:/MinGW/mingw64/rc.com"
+      - "D:/MinGW/mingw64/rc.exe"
+      - "D:/MinGW/mingw64/rc"
+      - "C:/Program Files (x86)/DataPipeline/bin/rc.com"
+      - "C:/Program Files (x86)/DataPipeline/bin/rc.exe"
+      - "C:/Program Files (x86)/DataPipeline/bin/rc"
+      - "C:/Program Files (x86)/DataPipeline/sbin/rc.com"
+      - "C:/Program Files (x86)/DataPipeline/sbin/rc.exe"
+      - "C:/Program Files (x86)/DataPipeline/sbin/rc"
+      - "C:/Program Files (x86)/DataPipeline/rc.com"
+      - "C:/Program Files (x86)/DataPipeline/rc.exe"
+      - "C:/Program Files (x86)/DataPipeline/rc"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "c:\\Users\\noo_n\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\noo_n\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "c:\\Users\\noo_n\\.vscode\\extensions\\vadimcn.vscode-lldb-1.12.1\\bin"
+        - "D:\\POPA\\Microsoft VS Code"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\MATLAB\\R2023a\\runtime\\win64"
+        - "C:\\Program Files\\MATLAB\\R2023a\\bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\WireGuard\\"
+        - "D:\\\u044e\u043b\u044f\\active HDL\\bin"
+        - "D:\\\u044e\u043b\u044f\\bin"
+        - "D:\\MinGW\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\GNU Arm Embedded Toolchain\\10 2021.10\\bin\\bin"
+        - "C:\\Users\\noo_n\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\"
+        - "C:\\Users\\noo_n\\AppData\\Local\\Programs\\Python\\Python311\\"
+        - "C:\\Users\\noo_n\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\\u0436\u043e\u043f\u0430\\PyCharm Community Edition 2023.2.1\\bin"
+        - "C:\\Users\\noo_n\\.dotnet\\tools"
+        - "C:\\Users\\noo_n\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin"
+        - "D:\\POPA\\Microsoft VS Code\\bin"
+        - "C:\\Users\\noo_n\\AppData\\Local\\Programs\\Ollama"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/DataPipeline"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "D:/MinGW/mingw64"
+        - "C:/Program Files (x86)/DataPipeline"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/MinGW/mingw64/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "D:/MinGW/mingw64/share/cmake-4.2/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "D:/MY_first_project/DataPipeline/build/CMakeFiles/CMakeScratch/TryCompile-aomxxb"
+      binary: "D:/MY_first_project/DataPipeline/build/CMakeFiles/CMakeScratch/TryCompile-aomxxb"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/MY_first_project/DataPipeline/build/CMakeFiles/CMakeScratch/TryCompile-aomxxb'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_48114.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Версия MSBuild 17.9.5+33de0b227 для .NET Framework
+        Сборка начата 10.03.2026 20:07:14.
+        
+        Проект "D:\\MY_first_project\\DataPipeline\\build\\CMakeFiles\\CMakeScratch\\TryCompile-aomxxb\\cmTC_48114.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+          Создание каталога "D:\\MY_first_project\\DataPipeline\\build\\CMakeFiles\\CMakeScratch\\TryCompile-aomxxb\\Debug\\".
+          Создание каталога "cmTC_48114.dir\\Debug\\cmTC_48114.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_48114.dir\\Debug\\cmTC_48114.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+          Обращение к "cmTC_48114.dir\\Debug\\cmTC_48114.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_48114.dir\\Debug\\\\" /Fd"cmTC_48114.dir\\Debug\\vc143.pdb" /external:W1 /TP /errorReport:queue "D:\\MinGW\\mingw64\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.39.33519 для x64
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_48114.dir\\Debug\\\\" /Fd"cmTC_48114.dir\\Debug\\vc143.pdb" /external:W1 /TP /errorReport:queue "D:\\MinGW\\mingw64\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /OUT:"D:\\MY_first_project\\DataPipeline\\build\\CMakeFiles\\CMakeScratch\\TryCompile-aomxxb\\Debug\\cmTC_48114.exe" /INCREMENTAL /ILK:"cmTC_48114.dir\\Debug\\cmTC_48114.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/MY_first_project/DataPipeline/build/CMakeFiles/CMakeScratch/TryCompile-aomxxb/Debug/cmTC_48114.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"D:/MY_first_project/DataPipeline/build/CMakeFiles/CMakeScratch/TryCompile-aomxxb/Debug/cmTC_48114.lib" /MACHINE:X64  /machine:x64 cmTC_48114.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_48114.vcxproj -> D:\\MY_first_project\\DataPipeline\\build\\CMakeFiles\\CMakeScratch\\TryCompile-aomxxb\\Debug\\cmTC_48114.exe
+        FinalizeBuildStatus:
+          Файл "cmTC_48114.dir\\Debug\\cmTC_48114.tlog\\unsuccessfulbuild" удаляется.
+          Обращение к "cmTC_48114.dir\\Debug\\cmTC_48114.tlog\\cmTC_48114.lastbuildstate".
+        Сборка проекта "D:\\MY_first_project\\DataPipeline\\build\\CMakeFiles\\CMakeScratch\\TryCompile-aomxxb\\cmTC_48114.vcxproj" завершена (целевые объекты по умолчанию).
+        
+        Сборка успешно завершена.
+            Предупреждений: 0
+            Ошибок: 0
+        
+        Прошло времени 00:00:00.41
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/MinGW/mingw64/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "D:/MinGW/mingw64/share/cmake-4.2/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'CXX': C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.39.33519/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/MinGW/mingw64/share/cmake-4.2/Modules/Internal/CMakeDetermineLinkerId.cmake:38 (message)"
+      - "D:/MinGW/mingw64/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "D:/MinGW/mingw64/share/cmake-4.2/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the CXX compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.39.33519/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.39.33519.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "find-v1"
+    backtrace:
+      - "build/generators/cmakedeps_macros.cmake:32 (find_library)"
+      - "build/generators/GTest-Target-release.cmake:23 (conan_package_library_targets)"
+      - "build/generators/GTestTargets.cmake:32 (include)"
+      - "build/generators/GTestConfig.cmake:16 (include)"
+      - "CMakeLists.txt:31 (find_package)"
+    mode: "library"
+    variable: "CONAN_FOUND_LIBRARY"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gmock_main"
+    candidate_directories:
+      - "C:/Users/noo_n/.conan2/p/b/gtesta0aa5ddc48e37/p/lib/"
+    found: "C:/Users/noo_n/.conan2/p/b/gtesta0aa5ddc48e37/p/lib/gmock_main.lib"
+    search_context:
+      CMAKE_LIBRARY_PATH:
+        - "C:/Users/noo_n/.conan2/p/b/gtesta0aa5ddc48e37/p/lib"
+        - "C:/Users/noo_n/.conan2/p/b/spdlod26b58be91771/p/lib"
+        - "C:/Users/noo_n/.conan2/p/fmtefbe862283345/p/lib"
+        - "C:/Users/noo_n/.conan2/p/sqlitc4f43984417d9/p/lib"
+      CMAKE_PREFIX_PATH:
+        - "D:/MY_first_project/DataPipeline/build/generators"
+      ENV{PATH}:
+        - "c:\\Users\\noo_n\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\noo_n\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "c:\\Users\\noo_n\\.vscode\\extensions\\vadimcn.vscode-lldb-1.12.1\\bin"
+        - "D:\\POPA\\Microsoft VS Code"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\MATLAB\\R2023a\\runtime\\win64"
+        - "C:\\Program Files\\MATLAB\\R2023a\\bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\WireGuard\\"
+        - "D:\\\u044e\u043b\u044f\\active HDL\\bin"
+        - "D:\\\u044e\u043b\u044f\\bin"
+        - "D:\\MinGW\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\GNU Arm Embedded Toolchain\\10 2021.10\\bin\\bin"
+        - "C:\\Users\\noo_n\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\"
+        - "C:\\Users\\noo_n\\AppData\\Local\\Programs\\Python\\Python311\\"
+        - "C:\\Users\\noo_n\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\\u0436\u043e\u043f\u0430\\PyCharm Community Edition 2023.2.1\\bin"
+        - "C:\\Users\\noo_n\\.dotnet\\tools"
+        - "C:\\Users\\noo_n\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin"
+        - "D:\\POPA\\Microsoft VS Code\\bin"
+        - "C:\\Users\\noo_n\\AppData\\Local\\Programs\\Ollama"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/DataPipeline"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "D:/MinGW/mingw64"
+        - "C:/Program Files (x86)/DataPipeline"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "C:/Program Files (x86)/DataPipeline/bin"
+        - "D:/MinGW/mingw64/bin"
+        - "/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "build/generators/cmakedeps_macros.cmake:32 (find_library)"
+      - "build/generators/GTest-Target-release.cmake:23 (conan_package_library_targets)"
+      - "build/generators/GTestTargets.cmake:32 (include)"
+      - "build/generators/GTestConfig.cmake:16 (include)"
+      - "CMakeLists.txt:31 (find_package)"
+    mode: "library"
+    variable: "CONAN_FOUND_LIBRARY"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gmock"
+    candidate_directories:
+      - "C:/Users/noo_n/.conan2/p/b/gtesta0aa5ddc48e37/p/lib/"
+    found: "C:/Users/noo_n/.conan2/p/b/gtesta0aa5ddc48e37/p/lib/gmock.lib"
+    search_context:
+      CMAKE_LIBRARY_PATH:
+        - "C:/Users/noo_n/.conan2/p/b/gtesta0aa5ddc48e37/p/lib"
+        - "C:/Users/noo_n/.conan2/p/b/spdlod26b58be91771/p/lib"
+        - "C:/Users/noo_n/.conan2/p/fmtefbe862283345/p/lib"
+        - "C:/Users/noo_n/.conan2/p/sqlitc4f43984417d9/p/lib"
+      CMAKE_PREFIX_PATH:
+        - "D:/MY_first_project/DataPipeline/build/generators"
+      ENV{PATH}:
+        - "c:\\Users\\noo_n\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\noo_n\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "c:\\Users\\noo_n\\.vscode\\extensions\\vadimcn.vscode-lldb-1.12.1\\bin"
+        - "D:\\POPA\\Microsoft VS Code"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\MATLAB\\R2023a\\runtime\\win64"
+        - "C:\\Program Files\\MATLAB\\R2023a\\bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\WireGuard\\"
+        - "D:\\\u044e\u043b\u044f\\active HDL\\bin"
+        - "D:\\\u044e\u043b\u044f\\bin"
+        - "D:\\MinGW\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\GNU Arm Embedded Toolchain\\10 2021.10\\bin\\bin"
+        - "C:\\Users\\noo_n\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\"
+        - "C:\\Users\\noo_n\\AppData\\Local\\Programs\\Python\\Python311\\"
+        - "C:\\Users\\noo_n\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\\u0436\u043e\u043f\u0430\\PyCharm Community Edition 2023.2.1\\bin"
+        - "C:\\Users\\noo_n\\.dotnet\\tools"
+        - "C:\\Users\\noo_n\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin"
+        - "D:\\POPA\\Microsoft VS Code\\bin"
+        - "C:\\Users\\noo_n\\AppData\\Local\\Programs\\Ollama"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/DataPipeline"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "D:/MinGW/mingw64"
+        - "C:/Program Files (x86)/DataPipeline"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "C:/Program Files (x86)/DataPipeline/bin"
+        - "D:/MinGW/mingw64/bin"
+        - "/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "build/generators/cmakedeps_macros.cmake:32 (find_library)"
+      - "build/generators/GTest-Target-release.cmake:23 (conan_package_library_targets)"
+      - "build/generators/GTestTargets.cmake:32 (include)"
+      - "build/generators/GTestConfig.cmake:16 (include)"
+      - "CMakeLists.txt:31 (find_package)"
+    mode: "library"
+    variable: "CONAN_FOUND_LIBRARY"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gtest_main"
+    candidate_directories:
+      - "C:/Users/noo_n/.conan2/p/b/gtesta0aa5ddc48e37/p/lib/"
+    found: "C:/Users/noo_n/.conan2/p/b/gtesta0aa5ddc48e37/p/lib/gtest_main.lib"
+    search_context:
+      CMAKE_LIBRARY_PATH:
+        - "C:/Users/noo_n/.conan2/p/b/gtesta0aa5ddc48e37/p/lib"
+        - "C:/Users/noo_n/.conan2/p/b/spdlod26b58be91771/p/lib"
+        - "C:/Users/noo_n/.conan2/p/fmtefbe862283345/p/lib"
+        - "C:/Users/noo_n/.conan2/p/sqlitc4f43984417d9/p/lib"
+      CMAKE_PREFIX_PATH:
+        - "D:/MY_first_project/DataPipeline/build/generators"
+      ENV{PATH}:
+        - "c:\\Users\\noo_n\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\noo_n\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "c:\\Users\\noo_n\\.vscode\\extensions\\vadimcn.vscode-lldb-1.12.1\\bin"
+        - "D:\\POPA\\Microsoft VS Code"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\MATLAB\\R2023a\\runtime\\win64"
+        - "C:\\Program Files\\MATLAB\\R2023a\\bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\WireGuard\\"
+        - "D:\\\u044e\u043b\u044f\\active HDL\\bin"
+        - "D:\\\u044e\u043b\u044f\\bin"
+        - "D:\\MinGW\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\GNU Arm Embedded Toolchain\\10 2021.10\\bin\\bin"
+        - "C:\\Users\\noo_n\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\"
+        - "C:\\Users\\noo_n\\AppData\\Local\\Programs\\Python\\Python311\\"
+        - "C:\\Users\\noo_n\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\\u0436\u043e\u043f\u0430\\PyCharm Community Edition 2023.2.1\\bin"
+        - "C:\\Users\\noo_n\\.dotnet\\tools"
+        - "C:\\Users\\noo_n\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin"
+        - "D:\\POPA\\Microsoft VS Code\\bin"
+        - "C:\\Users\\noo_n\\AppData\\Local\\Programs\\Ollama"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/DataPipeline"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "D:/MinGW/mingw64"
+        - "C:/Program Files (x86)/DataPipeline"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "C:/Program Files (x86)/DataPipeline/bin"
+        - "D:/MinGW/mingw64/bin"
+        - "/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "build/generators/cmakedeps_macros.cmake:32 (find_library)"
+      - "build/generators/GTest-Target-release.cmake:23 (conan_package_library_targets)"
+      - "build/generators/GTestTargets.cmake:32 (include)"
+      - "build/generators/GTestConfig.cmake:16 (include)"
+      - "CMakeLists.txt:31 (find_package)"
+    mode: "library"
+    variable: "CONAN_FOUND_LIBRARY"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gtest"
+    candidate_directories:
+      - "C:/Users/noo_n/.conan2/p/b/gtesta0aa5ddc48e37/p/lib/"
+    found: "C:/Users/noo_n/.conan2/p/b/gtesta0aa5ddc48e37/p/lib/gtest.lib"
+    search_context:
+      CMAKE_LIBRARY_PATH:
+        - "C:/Users/noo_n/.conan2/p/b/gtesta0aa5ddc48e37/p/lib"
+        - "C:/Users/noo_n/.conan2/p/b/spdlod26b58be91771/p/lib"
+        - "C:/Users/noo_n/.conan2/p/fmtefbe862283345/p/lib"
+        - "C:/Users/noo_n/.conan2/p/sqlitc4f43984417d9/p/lib"
+      CMAKE_PREFIX_PATH:
+        - "D:/MY_first_project/DataPipeline/build/generators"
+      ENV{PATH}:
+        - "c:\\Users\\noo_n\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\noo_n\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "c:\\Users\\noo_n\\.vscode\\extensions\\vadimcn.vscode-lldb-1.12.1\\bin"
+        - "D:\\POPA\\Microsoft VS Code"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\MATLAB\\R2023a\\runtime\\win64"
+        - "C:\\Program Files\\MATLAB\\R2023a\\bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\WireGuard\\"
+        - "D:\\\u044e\u043b\u044f\\active HDL\\bin"
+        - "D:\\\u044e\u043b\u044f\\bin"
+        - "D:\\MinGW\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\GNU Arm Embedded Toolchain\\10 2021.10\\bin\\bin"
+        - "C:\\Users\\noo_n\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\"
+        - "C:\\Users\\noo_n\\AppData\\Local\\Programs\\Python\\Python311\\"
+        - "C:\\Users\\noo_n\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\\u0436\u043e\u043f\u0430\\PyCharm Community Edition 2023.2.1\\bin"
+        - "C:\\Users\\noo_n\\.dotnet\\tools"
+        - "C:\\Users\\noo_n\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin"
+        - "D:\\POPA\\Microsoft VS Code\\bin"
+        - "C:\\Users\\noo_n\\AppData\\Local\\Programs\\Ollama"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/DataPipeline"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "D:/MinGW/mingw64"
+        - "C:/Program Files (x86)/DataPipeline"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "C:/Program Files (x86)/DataPipeline/bin"
+        - "D:/MinGW/mingw64/bin"
+        - "/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "build/generators/cmakedeps_macros.cmake:32 (find_library)"
+      - "build/generators/GTest-Target-release.cmake:60 (conan_package_library_targets)"
+      - "build/generators/GTestTargets.cmake:32 (include)"
+      - "build/generators/GTestConfig.cmake:16 (include)"
+      - "CMakeLists.txt:31 (find_package)"
+    mode: "library"
+    variable: "CONAN_FOUND_LIBRARY"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gmock_main"
+    candidate_directories:
+      - "C:/Users/noo_n/.conan2/p/b/gtesta0aa5ddc48e37/p/lib/"
+    found: "C:/Users/noo_n/.conan2/p/b/gtesta0aa5ddc48e37/p/lib/gmock_main.lib"
+    search_context:
+      CMAKE_LIBRARY_PATH:
+        - "C:/Users/noo_n/.conan2/p/b/gtesta0aa5ddc48e37/p/lib"
+        - "C:/Users/noo_n/.conan2/p/b/spdlod26b58be91771/p/lib"
+        - "C:/Users/noo_n/.conan2/p/fmtefbe862283345/p/lib"
+        - "C:/Users/noo_n/.conan2/p/sqlitc4f43984417d9/p/lib"
+      CMAKE_PREFIX_PATH:
+        - "D:/MY_first_project/DataPipeline/build/generators"
+      ENV{PATH}:
+        - "c:\\Users\\noo_n\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\noo_n\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "c:\\Users\\noo_n\\.vscode\\extensions\\vadimcn.vscode-lldb-1.12.1\\bin"
+        - "D:\\POPA\\Microsoft VS Code"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\MATLAB\\R2023a\\runtime\\win64"
+        - "C:\\Program Files\\MATLAB\\R2023a\\bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\WireGuard\\"
+        - "D:\\\u044e\u043b\u044f\\active HDL\\bin"
+        - "D:\\\u044e\u043b\u044f\\bin"
+        - "D:\\MinGW\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\GNU Arm Embedded Toolchain\\10 2021.10\\bin\\bin"
+        - "C:\\Users\\noo_n\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\"
+        - "C:\\Users\\noo_n\\AppData\\Local\\Programs\\Python\\Python311\\"
+        - "C:\\Users\\noo_n\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\\u0436\u043e\u043f\u0430\\PyCharm Community Edition 2023.2.1\\bin"
+        - "C:\\Users\\noo_n\\.dotnet\\tools"
+        - "C:\\Users\\noo_n\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin"
+        - "D:\\POPA\\Microsoft VS Code\\bin"
+        - "C:\\Users\\noo_n\\AppData\\Local\\Programs\\Ollama"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/DataPipeline"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "D:/MinGW/mingw64"
+        - "C:/Program Files (x86)/DataPipeline"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "C:/Program Files (x86)/DataPipeline/bin"
+        - "D:/MinGW/mingw64/bin"
+        - "/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "build/generators/cmakedeps_macros.cmake:32 (find_library)"
+      - "build/generators/GTest-Target-release.cmake:120 (conan_package_library_targets)"
+      - "build/generators/GTestTargets.cmake:32 (include)"
+      - "build/generators/GTestConfig.cmake:16 (include)"
+      - "CMakeLists.txt:31 (find_package)"
+    mode: "library"
+    variable: "CONAN_FOUND_LIBRARY"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gmock"
+    candidate_directories:
+      - "C:/Users/noo_n/.conan2/p/b/gtesta0aa5ddc48e37/p/lib/"
+    found: "C:/Users/noo_n/.conan2/p/b/gtesta0aa5ddc48e37/p/lib/gmock.lib"
+    search_context:
+      CMAKE_LIBRARY_PATH:
+        - "C:/Users/noo_n/.conan2/p/b/gtesta0aa5ddc48e37/p/lib"
+        - "C:/Users/noo_n/.conan2/p/b/spdlod26b58be91771/p/lib"
+        - "C:/Users/noo_n/.conan2/p/fmtefbe862283345/p/lib"
+        - "C:/Users/noo_n/.conan2/p/sqlitc4f43984417d9/p/lib"
+      CMAKE_PREFIX_PATH:
+        - "D:/MY_first_project/DataPipeline/build/generators"
+      ENV{PATH}:
+        - "c:\\Users\\noo_n\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\noo_n\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "c:\\Users\\noo_n\\.vscode\\extensions\\vadimcn.vscode-lldb-1.12.1\\bin"
+        - "D:\\POPA\\Microsoft VS Code"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\MATLAB\\R2023a\\runtime\\win64"
+        - "C:\\Program Files\\MATLAB\\R2023a\\bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\WireGuard\\"
+        - "D:\\\u044e\u043b\u044f\\active HDL\\bin"
+        - "D:\\\u044e\u043b\u044f\\bin"
+        - "D:\\MinGW\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\GNU Arm Embedded Toolchain\\10 2021.10\\bin\\bin"
+        - "C:\\Users\\noo_n\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\"
+        - "C:\\Users\\noo_n\\AppData\\Local\\Programs\\Python\\Python311\\"
+        - "C:\\Users\\noo_n\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\\u0436\u043e\u043f\u0430\\PyCharm Community Edition 2023.2.1\\bin"
+        - "C:\\Users\\noo_n\\.dotnet\\tools"
+        - "C:\\Users\\noo_n\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin"
+        - "D:\\POPA\\Microsoft VS Code\\bin"
+        - "C:\\Users\\noo_n\\AppData\\Local\\Programs\\Ollama"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/DataPipeline"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "D:/MinGW/mingw64"
+        - "C:/Program Files (x86)/DataPipeline"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "C:/Program Files (x86)/DataPipeline/bin"
+        - "D:/MinGW/mingw64/bin"
+        - "/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "build/generators/cmakedeps_macros.cmake:32 (find_library)"
+      - "build/generators/GTest-Target-release.cmake:180 (conan_package_library_targets)"
+      - "build/generators/GTestTargets.cmake:32 (include)"
+      - "build/generators/GTestConfig.cmake:16 (include)"
+      - "CMakeLists.txt:31 (find_package)"
+    mode: "library"
+    variable: "CONAN_FOUND_LIBRARY"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gtest_main"
+    candidate_directories:
+      - "C:/Users/noo_n/.conan2/p/b/gtesta0aa5ddc48e37/p/lib/"
+    found: "C:/Users/noo_n/.conan2/p/b/gtesta0aa5ddc48e37/p/lib/gtest_main.lib"
+    search_context:
+      CMAKE_LIBRARY_PATH:
+        - "C:/Users/noo_n/.conan2/p/b/gtesta0aa5ddc48e37/p/lib"
+        - "C:/Users/noo_n/.conan2/p/b/spdlod26b58be91771/p/lib"
+        - "C:/Users/noo_n/.conan2/p/fmtefbe862283345/p/lib"
+        - "C:/Users/noo_n/.conan2/p/sqlitc4f43984417d9/p/lib"
+      CMAKE_PREFIX_PATH:
+        - "D:/MY_first_project/DataPipeline/build/generators"
+      ENV{PATH}:
+        - "c:\\Users\\noo_n\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\noo_n\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "c:\\Users\\noo_n\\.vscode\\extensions\\vadimcn.vscode-lldb-1.12.1\\bin"
+        - "D:\\POPA\\Microsoft VS Code"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\MATLAB\\R2023a\\runtime\\win64"
+        - "C:\\Program Files\\MATLAB\\R2023a\\bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\WireGuard\\"
+        - "D:\\\u044e\u043b\u044f\\active HDL\\bin"
+        - "D:\\\u044e\u043b\u044f\\bin"
+        - "D:\\MinGW\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\GNU Arm Embedded Toolchain\\10 2021.10\\bin\\bin"
+        - "C:\\Users\\noo_n\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\"
+        - "C:\\Users\\noo_n\\AppData\\Local\\Programs\\Python\\Python311\\"
+        - "C:\\Users\\noo_n\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\\u0436\u043e\u043f\u0430\\PyCharm Community Edition 2023.2.1\\bin"
+        - "C:\\Users\\noo_n\\.dotnet\\tools"
+        - "C:\\Users\\noo_n\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin"
+        - "D:\\POPA\\Microsoft VS Code\\bin"
+        - "C:\\Users\\noo_n\\AppData\\Local\\Programs\\Ollama"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/DataPipeline"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "D:/MinGW/mingw64"
+        - "C:/Program Files (x86)/DataPipeline"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "C:/Program Files (x86)/DataPipeline/bin"
+        - "D:/MinGW/mingw64/bin"
+        - "/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "build/generators/cmakedeps_macros.cmake:32 (find_library)"
+      - "build/generators/GTest-Target-release.cmake:240 (conan_package_library_targets)"
+      - "build/generators/GTestTargets.cmake:32 (include)"
+      - "build/generators/GTestConfig.cmake:16 (include)"
+      - "CMakeLists.txt:31 (find_package)"
+    mode: "library"
+    variable: "CONAN_FOUND_LIBRARY"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gtest"
+    candidate_directories:
+      - "C:/Users/noo_n/.conan2/p/b/gtesta0aa5ddc48e37/p/lib/"
+    found: "C:/Users/noo_n/.conan2/p/b/gtesta0aa5ddc48e37/p/lib/gtest.lib"
+    search_context:
+      CMAKE_LIBRARY_PATH:
+        - "C:/Users/noo_n/.conan2/p/b/gtesta0aa5ddc48e37/p/lib"
+        - "C:/Users/noo_n/.conan2/p/b/spdlod26b58be91771/p/lib"
+        - "C:/Users/noo_n/.conan2/p/fmtefbe862283345/p/lib"
+        - "C:/Users/noo_n/.conan2/p/sqlitc4f43984417d9/p/lib"
+      CMAKE_PREFIX_PATH:
+        - "D:/MY_first_project/DataPipeline/build/generators"
+      ENV{PATH}:
+        - "c:\\Users\\noo_n\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\noo_n\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "c:\\Users\\noo_n\\.vscode\\extensions\\vadimcn.vscode-lldb-1.12.1\\bin"
+        - "D:\\POPA\\Microsoft VS Code"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\MATLAB\\R2023a\\runtime\\win64"
+        - "C:\\Program Files\\MATLAB\\R2023a\\bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\WireGuard\\"
+        - "D:\\\u044e\u043b\u044f\\active HDL\\bin"
+        - "D:\\\u044e\u043b\u044f\\bin"
+        - "D:\\MinGW\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\GNU Arm Embedded Toolchain\\10 2021.10\\bin\\bin"
+        - "C:\\Users\\noo_n\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\"
+        - "C:\\Users\\noo_n\\AppData\\Local\\Programs\\Python\\Python311\\"
+        - "C:\\Users\\noo_n\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\\u0436\u043e\u043f\u0430\\PyCharm Community Edition 2023.2.1\\bin"
+        - "C:\\Users\\noo_n\\.dotnet\\tools"
+        - "C:\\Users\\noo_n\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin"
+        - "D:\\POPA\\Microsoft VS Code\\bin"
+        - "C:\\Users\\noo_n\\AppData\\Local\\Programs\\Ollama"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/DataPipeline"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "D:/MinGW/mingw64"
+        - "C:/Program Files (x86)/DataPipeline"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "C:/Program Files (x86)/DataPipeline/bin"
+        - "D:/MinGW/mingw64/bin"
+        - "/bin"
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "CMakeLists.txt:31 (find_package)"
+    name: "GTest"
+    configs:
+      -
+        filename: "GTestConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "gtest-config.cmake"
+        kind: "cmake"
+    version_request:
+      exact: false
+    settings:
+      required: "optional"
+      quiet: false
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      names:
+        - "GTest"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "D:/MY_first_project/DataPipeline/build/CMakeFiles/pkgRedirects/GTestConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/MY_first_project/DataPipeline/build/CMakeFiles/pkgRedirects/gtest-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found:
+      path: "D:/MY_first_project/DataPipeline/build/generators/GTestConfig.cmake"
+      mode: "config"
+      version: "1.14.0"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "D:/MY_first_project/DataPipeline/build/generators"
+      ENV{PATH}:
+        - "c:\\Users\\noo_n\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\noo_n\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "c:\\Users\\noo_n\\.vscode\\extensions\\vadimcn.vscode-lldb-1.12.1\\bin"
+        - "D:\\POPA\\Microsoft VS Code"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\MATLAB\\R2023a\\runtime\\win64"
+        - "C:\\Program Files\\MATLAB\\R2023a\\bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\WireGuard\\"
+        - "D:\\\u044e\u043b\u044f\\active HDL\\bin"
+        - "D:\\\u044e\u043b\u044f\\bin"
+        - "D:\\MinGW\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\GNU Arm Embedded Toolchain\\10 2021.10\\bin\\bin"
+        - "C:\\Users\\noo_n\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\"
+        - "C:\\Users\\noo_n\\AppData\\Local\\Programs\\Python\\Python311\\"
+        - "C:\\Users\\noo_n\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\\u0436\u043e\u043f\u0430\\PyCharm Community Edition 2023.2.1\\bin"
+        - "C:\\Users\\noo_n\\.dotnet\\tools"
+        - "C:\\Users\\noo_n\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin"
+        - "D:\\POPA\\Microsoft VS Code\\bin"
+        - "C:\\Users\\noo_n\\AppData\\Local\\Programs\\Ollama"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/DataPipeline"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "D:/MinGW/mingw64"
+        - "C:/Program Files (x86)/DataPipeline"
+...
